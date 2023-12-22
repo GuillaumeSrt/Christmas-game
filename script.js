@@ -5,7 +5,7 @@ form.addEventListener('submit', function(event) {
   event.preventDefault();
   
   const password = document.getElementById('password').value;
-  const correctPassword = 'Plop123'; // Remplace avec le mot de passe correct
+  const correctPassword = 'Corinne'; // Remplace avec le mot de passe correct
   
   if (password === correctPassword) {
     //message.textContent = 'Bravo, vous avez gagné ! Ton cadeau se trouve : dans ton cul.';
